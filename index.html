@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Do-KidKod</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="game">
+        <div class="header">
+            <span></span>
+            <h1>My 2Do List</h1>
+            <button onclick="toggleForm()">➕</button>
+        </div>
+        <form onsubmit="createTodo(event)">
+            <input type="text" id="ipt" placeholder="Add New Todo">
+        </form>
+        <ul id="list">
+            <!-- <li >
+                <button>✔️</button>
+                <p>eat</p>
+                <button>🗑️</button>
+            </li>
+            <li >
+                <button>✔️</button>
+                <p class="done"> sleep</p>
+                <button>🗑️</button>
+            </li>
+            <li >
+                <button>✔️</button>
+                <p>code</p>
+                <button>🗑️</button>
+            </li> -->
+            
+        </ul>
+    </div>
+
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
